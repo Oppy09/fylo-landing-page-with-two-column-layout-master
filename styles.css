@@ -12,14 +12,13 @@ body {
     margin: 0;
     transition: all 250ms ease-in;
 }
-h1, h2, h3, h4, h5, h6 {
+a {
     font-family: 'Raleway';
 }
 p {
     line-height: 1.5;
     font-size: 16px;
     color: hsl(243, 87%, 12%);
-    font-weight: 400;
 }
 .container {
     width: 100%;
@@ -38,6 +37,9 @@ p {
     gap: 3rem;
     list-style: none;
 }
+.nav-links li {
+    font-family: 'Raleway';
+}
 
 #features {
     width: 100%;
@@ -53,6 +55,7 @@ p {
     gap: 2rem;
 }
 header span {
+    font-family: 'Raleway';
     font-size: 2.6rem;
     font-weight: 700;
     color: hsl(243, 87%, 12%);
@@ -79,6 +82,7 @@ button {
     border-radius: 5px;
     background-color: hsl(224, 93%, 58%);
     color: hsl(240, 75%, 98%);
+    font-family: 'Raleway';
     font-size: 1rem;
     font-weight: 700;
     margin: 0 1rem;
